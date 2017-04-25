@@ -13,7 +13,7 @@ const should = chai.should();
 // see: https://github.com/chaijs/chai-http
 chai.use(chaiHttp);
 
-xdescribe('Shopping List', function() {
+describe('Shopping List', function() {
 
   // Before our tests run, we activate the server. Our `runServer`
   // function returns a promise, and we return the that promise by
